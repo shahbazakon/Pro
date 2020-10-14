@@ -279,6 +279,25 @@ header {
 
 /* notes Section end */
 
+
+/* subject section start  */
+
+.subjects {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 130px;
+    width: 80;
+}
+
+.subject-card {
+    margin: 20px;
+    border: 2px solid red;
+}
+
+
+/* subject section End  */
+
 footer {
     margin-top: 10px;
     padding-top: 10px;
