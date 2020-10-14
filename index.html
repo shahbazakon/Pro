@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,158 +8,198 @@
     <link rel="stylesheet" href="style.css">
     <title>ComCod</title>
 </head>
+
 <body>
     <div class="container">
 
         <header>
-            
+
             <div class="icon">
                 <h2>ComCod</h2>
             </div>
 
             <form action="#" method="post">
-            <div class="btn">
-            <div id="sign-in">
-                <input type="button" value="sign-up" name="sign-up">
-            </div>
-            <div id="sign-in">
-                <input type="button" value="Login" name="Login">
-            </div>
-        </div>
+                <div class="btn">
+                    <div id="sign-in">
+                        <input type="button" value="sign-up" name="sign-up">
+                    </div>
+                    <div id="sign-in">
+                        <input type="button" value="Login" name="Login">
+                    </div>
+                </div>
 
-            <div class="clearfx"></div>
+                <div class="clearfx"></div>
 
             </form>
-        
+
         </header>
-            <div class="navbar" >
-                <ul class="menuitem">
-                    <li class="lst-item"><a href="#">Home</a></li>
-                    <li class="lst-item" ><a href="#">All Courses &nbsp<i class="fa fa-caret-down"></i></a>
-                        <ul id="course-item">
-                            <li><a href="#">Course1</a></li>
-                            <li><a href="#">Course2</a></li>
-                            <li><a href="#">Course3</a></li>
-                            <li><a href="#">Course4</a></li>
-                            <li><a href="#">Course5</a></li>    
-                        </ul>
-                    </li>
-                    <li class="lst-item" ><a href="#">Jobs &nbsp<i class="fa fa-caret-down"></i></a>
-                        <ul>
-                            <li><a href="#">Course1</a></li>
-                            <li><a href="#">Course2</a></li>
-                            <li><a href="#">Course3</a></li>
-                            <li><a href="#">Course4</a></li> 
-                        </ul>
-                    </li>
-                    <li class="lst-item"><a href="#">About</a></li>
-                    <li class="lst-item"><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="clearfx"></div>
+        <div class="navbar">
+            <ul class="menuitem">
+                <li class="lst-item"><a href="#">Home</a></li>
+                <li class="lst-item"><a href="#">All Courses &nbsp<i class="fa fa-caret-down"></i></a>
+                    <ul id="course-item">
+                        <li><a href="#">Course1</a></li>
+                        <li><a href="#">Course2</a></li>
+                        <li><a href="#">Course3</a></li>
+                        <li><a href="#">Course4</a></li>
+                        <li><a href="#">Course5</a></li>
+                    </ul>
+                </li>
+                <li class="lst-item"><a href="#">Jobs &nbsp<i class="fa fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#">Course1</a></li>
+                        <li><a href="#">Course2</a></li>
+                        <li><a href="#">Course3</a></li>
+                        <li><a href="#">Course4</a></li>
+                    </ul>
+                </li>
+                <li class="lst-item"><a href="#">About</a></li>
+                <li class="lst-item"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="clearfx"></div>
         <!--It is complete body-->
         <div class="body">
-        <div class="imgslide">
-            <img name="slide"  width= "100%";
-            height="500px"; alt="slide1">
+            <div class="imgslide">
+                <img name="slide" width="100%" ; height="500px" ; alt="slide1">
+            </div>
+
+
+            <div class="card-container">
+                <div class="card" id="card1"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+
+            <!-- Courses-section start -->
+            <section class="Courses-section">
+                <div class="course-H">
+                    <h1>Our Most Populer Courses</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet optio laborum ipsa unde <br> neque, animi quos vitae impedit libero necessitatibus.</p>
+                </div>
+                <div class="course-container">
+                    <div class="course-card">
+                        <img src="img/c.jpg" alt="C programming">
+                        <h2>C progarmming</h2>
+                        <input type="button" value="See more.." name="See more..">
+                    </div>
+                    <div class="course-card">
+                        <img src="img/php.png" alt="php">
+                        <h2>Php</h2>
+                        <input type="button" value="See more.." name="See more..">
+                    </div>
+                    <div class="course-card">
+                        <img src="img/python.png" alt="Python">
+                        <h2>Python</h2>
+                        <input type="button" value="See more.." name="See more..">
+                    </div>
+                    <div class="course-card">
+                        <img src="img/Pyhon Advance.jpg" alt="Pyhon Advance">
+                        <h2>Python Advance</h2>
+                        <input type="button" value="See more.." name="See more..">
+                    </div>
+                    <div class="course-card">
+                        <img src="img/core C.png" alt="core C">
+                        <h2>Core c</h2>
+                        <input type="button" value="See more.." name="See more..">
+                    </div>
+                    <div class="course-card">
+                        <img src="img/java.png" alt="java">
+                        <h2>Java</h2>
+                        <input type="button" value="See more.." name="See more..">
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- Courses-section end -->
+
+            <!-- Jon section Start -->
+            <section class="job-section">
+                <div class="job-card">
+                    <img src="img/job.png" alt="Job-template" class="job-icon">
+                </div>
+                <div class="job-card job-detail">
+                    <h2>Find Jobs</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur dolore reiciendis perspiciatis, optio laboriosam delectus impedit aliquid assumenda omnis corporis magni aspernatur accusamus sed sequi excepturi aut. Placeat
+                        tempora eius sed sunt enim?
+                    </p>
+                    <input class="Notes-btn job-btn" type="button" value="Explor Job" name="Explor job">
+
+                </div>
+            </section>
+
+            <!-- Jon section End -->
+
+            <!-- notes-section Start  -->
+
+            <section class="job-section Notes-section">
+                <div class="job-card job-detail">
+                    <h2>Subject Notes</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur dolore reiciendis perspiciatis, optio laboriosam delectus impedit aliquid assumenda omnis corporis magni aspernatur accusamus sed sequi excepturi aut. Placeat
+                        tempora eius sed sunt enim?
+                    </p>
+                    <input class="Notes-btn job-btn" type="button" value="Get Notes" name="Get Notes">
+
+                </div>
+                <div class="job-card">
+                    <img src="img/Notes.png" alt="Job-template" class="job-icon">
+                </div>
+            </section>
+
+            <!-- notes-section End  -->
+
+            <footer>
+                <div class="footerbox">
+                    <h2>footer 1</h2>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="#">Home</a></li>
+                        <li class="footer-item"><a href="#">All Courses</a></li>
+                        <li class="footer-item"><a href="#">Jobs</a></li>
+                        <li class="footer-item"><a href="#">About us</a></li>
+                        <li class="footer-item"><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footerbox">
+                    <h2>footer 1</h2>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="#">Home</a></li>
+                        <li class="footer-item"><a href="#">All Courses</a></li>
+                        <li class="footer-item"><a href="#">Jobs</a></li>
+                        <li class="footer-item"><a href="#">About us</a></li>
+                        <li class="footer-item"><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footerbox">
+                    <h2>footer 1</h2>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="#">Home</a></li>
+                        <li class="footer-item"><a href="#">All Courses</a></li>
+                        <li class="footer-item"><a href="#">Jobs</a></li>
+                        <li class="footer-item"><a href="#">About us</a></li>
+                        <li class="footer-item"><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footerbox">
+                    <h2>footer 1</h2>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="#">Home</a></li>
+                        <li class="footer-item"><a href="#">All Courses</a></li>
+                        <li class="footer-item"><a href="#">Jobs</a></li>
+                        <li class="footer-item"><a href="#">About us</a></li>
+                        <li class="footer-item"><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+
+            </footer>
+            <div class="copy">
+                <p>Copyright &copy; 2020. All Right Reserved by ComCod</p>
+            </div>
         </div>
-        
-   
-    <div class="card-container">
-        <div class="card" id ="card1"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+        <!--Body Close-->
     </div>
-
-    <section class="Courses-section">
-        <div class="course-H">
-            <h1>Our Most Populer Courses</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet optio laborum ipsa unde <br> neque, animi quos vitae impedit libero necessitatibus.</p>
-        </div>
-        <div class="course-container">
-            <div class="course-card">
-                <img src="img/c.jpg" alt="C programming">
-                <h2>C progarmming</h2>
-                <input type="button" value="See more.." name="See more..">
-            </div>
-            <div class="course-card">
-                <img src="img/php.png" alt="php">
-                <h2>Php</h2>
-                <input type="button" value="See more.." name="See more..">
-            </div>
-            <div class="course-card">
-                <img src="img/python.png" alt="Python">
-                <h2>Python</h2>
-                <input type="button" value="See more.." name="See more..">
-            </div>
-            <div class="course-card">
-                <img src="img/Pyhon Advance.jpg" alt="Pyhon Advance">
-                <h2>Python Advance</h2>
-                <input type="button" value="See more.." name="See more..">
-            </div>
-            <div class="course-card">
-                <img src="img/core C.png" alt="core C">
-                <h2>Core c</h2>
-                <input type="button" value="See more.." name="See more..">
-            </div>
-            <div class="course-card">
-                <img src="img/java.png" alt="java">
-                <h2>Java</h2>
-                <input type="button" value="See more.." name="See more..">
-            </div>
-
-        </div>
-
-    </section>
-
-    <footer>
-        <div class="footerbox">
-            <h2>footer 1</h2>
-            <ul class="footer-list">
-                    <li class="footer-item"><a href="#">Home</a></li>
-                    <li class="footer-item"><a href="#">All Courses</a></li>
-                    <li class="footer-item"><a href="#">Jobs</a></li>
-                    <li class="footer-item"><a href="#">About us</a></li>
-                    <li class="footer-item"><a href="#">Contact us</a></li>
-            </ul>
-        </div>
-        <div class="footerbox">
-            <h2>footer 1</h2>
-            <ul class="footer-list">
-                    <li class="footer-item"><a href="#">Home</a></li>
-                    <li class="footer-item"><a href="#">All Courses</a></li>
-                    <li class="footer-item"><a href="#">Jobs</a></li>
-                    <li class="footer-item"><a href="#">About us</a></li>
-                    <li class="footer-item"><a href="#">Contact us</a></li>
-            </ul>
-        </div>
-        <div class="footerbox">
-            <h2>footer 1</h2>
-            <ul class="footer-list">
-                    <li class="footer-item"><a href="#">Home</a></li>
-                    <li class="footer-item"><a href="#">All Courses</a></li>
-                    <li class="footer-item"><a href="#">Jobs</a></li>
-                    <li class="footer-item"><a href="#">About us</a></li>
-                    <li class="footer-item"><a href="#">Contact us</a></li>
-            </ul>
-        </div>
-        <div class="footerbox">
-            <h2>footer 1</h2>
-            <ul class="footer-list">
-                    <li class="footer-item"><a href="#">Home</a></li>
-                    <li class="footer-item"><a href="#">All Courses</a></li>
-                    <li class="footer-item"><a href="#">Jobs</a></li>
-                    <li class="footer-item"><a href="#">About us</a></li>
-                    <li class="footer-item"><a href="#">Contact us</a></li>
-            </ul>
-        </div>
-        
-    </footer>
-    <div class="copy">
-        <p>Copyright &copy; 2020. All Right Reserved by ComCod</p>
-    </div>
-    </div><!--Body Close-->
-    </div><!--Container-close-->
+    <!--Container-close-->
 </body>
 <script src="script.js"></script>
+
 </html>
