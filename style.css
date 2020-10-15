@@ -2,14 +2,15 @@
     margin: 0px;padding: 0px;
     box-sizing: border-box;
 }
-header {
+header
+{
     width: 100%;
     box-shadow: 0px 2px 7px #b5b5;
     background-color: rgb(255 255 240);
     height: 70px;
     position: fixed;
 }
-.icon>h2 {
+.icon>h2{
     padding-top: 20px;
     padding-left: 20px;
     color: #000000;
@@ -49,7 +50,7 @@ header {
     font-family: sans-serif;
     font-size: 1.2vw;
     font-weight: bold;
-    margin: -30px;
+    margin-top: -30px;
     text-align: center;
 }
 .lst-item >a{
@@ -257,6 +258,7 @@ header {
     box-shadow: 2px 5px 24px rgba(0,0,0,0.1);
     border-left: 8px solid steelblue;
     margin-bottom: 50px;
+    background-color: #ffffff;
 }
 .sub-heading>h1{
     display: inline-block;
@@ -268,7 +270,6 @@ header {
     background-color: rgb(207, 203, 203);
     margin: 20px 0px 0px 0px;
 }
-
 /* subject section start  */
 .Subject-section{
     margin-bottom: 50px;
@@ -283,7 +284,7 @@ header {
 .subject-card {
     margin: 20px;
     box-shadow: 2px 5px 24px rgba(0,0,0,0.1);
-    
+    height: 150px;   
 }
 #subject-card-6{
     margin: 50px;
