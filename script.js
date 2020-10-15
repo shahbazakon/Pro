@@ -20,7 +20,3 @@ function changeImg(){
 }
 window.onload = changeImg;
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-  

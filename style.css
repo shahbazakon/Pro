@@ -63,7 +63,7 @@ header {
     position: relative;
     margin-top: 10px;
     margin-left: 100px;
-    background-color: gray;
+    background-color: ivory;
     display: none;
 }
 .lst-item>ul>li{
@@ -72,13 +72,16 @@ header {
 }
 .lst-item>ul>li>a{
     text-decoration: none;
-    color: #ffffff;
+    color: blue
 }
 .lst-item:hover>ul{
     display:block;
     position: absolute;
-    box-shadow: 2px 5px 24px rgba(0,0,0,0.1);
+    box-shadow: 2px 5px 24px #ffffff;
     border-radius: 0px 8px 0px 8px;
+}
+.lst-item>ul>li:hover{
+    background-color: lightgray;
 }
 .lst-item:hover>a>i{
     transform: rotate(-180deg);
