@@ -3,9 +3,11 @@ var images = [];
 var time = 3000;
 
 images[0] = "img/1.png";
-images[1] = "img/2.png";
-images[2] = "img/3.png";
-images[3] = "img/4.png";
+images[1] = "img/slide1.png"
+images[2] = "img/2.png";
+images[3] = "img/slide3.png"
+images[4] = "img/3.png";
+images[5] = "img/4.png";
 
 function changeImg(){
     document.slide.src = images[i];
